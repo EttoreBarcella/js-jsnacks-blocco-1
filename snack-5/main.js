@@ -12,9 +12,8 @@ for (let i = 0; i < 6 ; i++){
     // SE il numero è dispari aggiungo a emptyList il numero scelto => addNumber
     if (addNumber % 2 !== 0 ) {
         emptyList.push (addNumber)
-        console.log("il tuo numero è in lista")
-    // ALTRIMENTI dico all'utente che il numero non è in lista
-    }else{
-        console.log("il tuo numero non è in lista")
     }
 }
+// Stampo i numero dispari in console
+console.log(emptyList)
+
