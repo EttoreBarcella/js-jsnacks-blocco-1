@@ -12,9 +12,9 @@ console.log(lenghtSecondWord)
 // invece se prima < seconda stampo la seconda
 // altrimenti se sono uguali scrivo che le parole sono lunghe uguali
 if (lenghtFirstWord > lenghtSecondWord) {
-    console.log(firstWord)
+    console.log(firstWord, secondWord)
 } else if (lenghtFirstWord < lenghtSecondWord) {
-    console.log(secondWord)
+    console.log(secondWord, firstWord)
 } else {
     console.log("le parole sono lunghe uguali")
 }
