@@ -8,7 +8,7 @@ for (let i = 0 ; i < 10 ; i++){
     let askNumber = Number(prompt("scrivi un numero"))
     // faccio la somma di tutti i numeri
     sumNumber += askNumber
-    // stampo il risultato
-    console.log(sumNumber)
 }
 
+// stampo il risultato
+console.log(sumNumber)
